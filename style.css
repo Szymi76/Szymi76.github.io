@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
+
+:root {
+  --black: #000000;
+  --very-dark-gray: #050b1b;
+  --dark-gray: #161e31;
+  --gray: #6b7280;
+  --white: #f9fafb;
+  --green: #22c55e;
+  --blue: #2563eb;
+  --violet: #7c3aed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+table,
+tr,
+td,
+th {
+  border: 1px solid var(--gray);
+  border-collapse: collapse;
+  padding: 12px 16px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: var(--very-dark-gray);
+}
+
+tr:nth-child(odd) {
+  background-color: var(--black);
+}
+
+a {
+  color: var(--blue);
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  margin: auto;
+  border: 2px solid var(--white);
+  border-radius: 4px;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 13px;
+  height: 13px;
+  transform: scale(0);
+  transition: 100ms transform ease-in-out;
+  background-color: var(--white);
+  border-radius: 2px;
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+iframe {
+  position: sticky;
+  top: 8px;
+}
+
+button {
+  outline: none;
+  padding: 4px 8px;
+  background-color: var(--white);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 100ms;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: transparent;
+  color: var(--white);
+}
+
+.active-row {
+  background-color: #121f44 !important;
+}
