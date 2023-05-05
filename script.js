@@ -23,10 +23,26 @@ const exams = [
   },
   {
     type: "INF03",
-    date: "2021-06-01",
+    date: "2022-06-01",
     link: {
       sheet: "./egzaminy/INF03-2022-06-01/inf-03-2022-06-01-SG.pdf",
       zip: "./egzaminy/INF03-2022-06-01/pliki1.zip",
+    },
+  },
+  {
+    type: "INF03",
+    date: "2022-06-02",
+    link: {
+      sheet: "./egzaminy/INF03-2022-06-02/inf-03-2022-06-02-SG.pdf",
+      zip: "./egzaminy/INF03-2022-06-02/pliki2.zip",
+    },
+  },
+  {
+    type: "INF03",
+    date: "2022-06-03",
+    link: {
+      sheet: "./egzaminy/INF03-2022-06-03/inf-03-2022-06-03-SG.pdf",
+      zip: "./egzaminy/INF03-2022-06-03/pliki3.zip",
     },
   },
   {
@@ -317,6 +333,214 @@ const exams = [
       zip: "./egzaminy/EE09-2022-06-04/zad4.zip",
     },
   },
+  {
+    type: "E14",
+    date: "2019-01-01",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-01/E14-2019-01-01.pdf",
+      zip: "./egzaminy/E14-2019-01-01/pliki1.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-02",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-02/E14-2019-01-02.pdf",
+      zip: "./egzaminy/E14-2019-01-02/pliki2.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-03",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-03/E14-2019-01-03.pdf",
+      zip: "./egzaminy/E14-2019-01-03/pliki3.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-04",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-04/E14-2019-01-04.pdf",
+      zip: "./egzaminy/E14-2019-01-04/pliki4.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-05",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-05/E14-2019-01-05.pdf",
+      zip: "./egzaminy/E14-2019-01-05/pliki5.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-06",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-06/E14-2019-01-06.pdf",
+      zip: "./egzaminy/E14-2019-01-06/pliki6.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-07",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-07/E14-2019-01-07.pdf",
+      zip: "./egzaminy/E14-2019-01-07/materialy1.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-08",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-08/E14-2019-01-08.pdf",
+      zip: "./egzaminy/E14-2019-01-08/materialy2.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-09",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-09/EE-09-2022-06-04-SG.pdf",
+      zip: "./egzaminy/E14-2019-01-09/materialy3.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-10",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-10/E14-2019-01-10.pdf",
+      zip: "./egzaminy/E14-2019-01-10/materialy4.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-11",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-11/E14-2019-01-11.pdf",
+      zip: "./egzaminy/E14-2019-01-11/materialy5-6.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-01-12",
+    link: {
+      sheet: "./egzaminy/E14-2019-01-12/E14-2019-01-12.pdf",
+      zip: "./egzaminy/E14-2019-01-12/materialy5-6.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-06-01",
+    link: {
+      sheet: "./egzaminy/E14-2019-06-01/E14-2019-06-01.pdf",
+      zip: "./egzaminy/E14-2019-06-01/materialy1.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-06-02",
+    link: {
+      sheet: "./egzaminy/E14-2019-06-02/E14-2019-06-02.pdf",
+      zip: "./egzaminy/E14-2019-06-02/materialy2.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-06-03",
+    link: {
+      sheet: "./egzaminy/E14-2019-06-03/E14-2019-06-03.pdf",
+      zip: "./egzaminy/E14-2019-06-03/materialy3.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-06-04",
+    link: {
+      sheet: "./egzaminy/E14-2019-06-04/E14-2019-06-04.pdf",
+      zip: "./egzaminy/E14-2019-06-04/materialy4.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-06-05",
+    link: {
+      sheet: "./egzaminy/E14-2019-06-05/E14-2019-06-05.pdf",
+      zip: "./egzaminy/E14-2019-06-05/materialy5.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2019-06-06",
+    link: {
+      sheet: "./egzaminy/E14-2019-06-06/E14-2019-06-06.pdf",
+      zip: "./egzaminy/E14-2019-06-06/materialy6.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-01-01",
+    link: {
+      sheet: "./egzaminy/E14-2020-01-01/E14-2020-01-01.pdf",
+      zip: "./egzaminy/E14-2020-01-01/materialy1.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-01-02",
+    link: {
+      sheet: "./egzaminy/E14-2020-01-02/E14-2020-01-02.pdf",
+      zip: "./egzaminy/E14-2020-01-02/materialy2.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-01-03",
+    link: {
+      sheet: "./egzaminy/E14-2020-01-03/E14-2020-01-03.pdf",
+      zip: "./egzaminy/E14-2020-01-03/materialy3.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-01-04",
+    link: {
+      sheet: "./egzaminy/E14-2020-01-04/E14-2020-01-04.pdf",
+      zip: "./egzaminy/E14-2020-01-04/materialy4.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-06-01",
+    link: {
+      sheet: "./egzaminy/E14-2020-06-01/E14-2020-06-01.pdf",
+      zip: "./egzaminy/E14-2020-06-01/egzamin1.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-06-02",
+    link: {
+      sheet: "./egzaminy/E14-2020-06-02/E14-2020-06-02.pdf",
+      zip: "./egzaminy/E14-2020-06-02/egzamin2.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-06-03",
+    link: {
+      sheet: "./egzaminy/E14-2020-06-03/E14-2020-06-03.pdf",
+      zip: "./egzaminy/E14-2020-06-03/egzamin3.zip",
+    },
+  },
+  {
+    type: "E14",
+    date: "2020-06-04",
+    link: {
+      sheet: "./egzaminy/E14-2020-06-04/E14-2020-06-04.pdf",
+      zip: "./egzaminy/E14-2020-06-04/egzamin4.zip",
+    },
+  },
 ];
 
 const table = document.getElementsByTagName("tbody")[0];
@@ -359,26 +583,29 @@ function getValueFromLocalStorage(key, initialValue) {
 function renderEgzamsToTable() {
   const html = exams.map((egzam, index) => {
     return `
-              <tr ${index == 0 ? "class='active-row'" : ""}>
-                  <td>
-                      <input type="checkbox" data-index=${index} />
-                  </td>
-                  <td>
-                      <p>${egzam.type}</p>
-                  </td>
-                  <td>
-                      <p>${egzam.date}</p>
-                  </td>
-                  <td>
-                      <a href='${egzam.link.sheet}' download>Pobierz</a>
-                  </td>
-                  <td>
-                      <a href='${egzam.link.zip}' download>Pobierz</a>
-                  </td>
-                  <td>
-                      <button data-type="preview">Otwórz</button>
-                  </td>
-              </tr>
+            <tr ${index == 0 ? "class='active-row'" : ""}>
+              <td>
+                <p>${index + 1}</p>
+              </td>
+              <td>
+                  <input type="checkbox" data-index=${index} />
+              </td>
+              <td>
+                  <p>${egzam.type}</p>
+              </td>
+              <td>
+                  <p>${egzam.date}</p>
+              </td>
+              <td>
+                  <a href='${egzam.link.sheet}' download>Pobierz</a>
+              </td>
+              <td>
+                  <a href='${egzam.link.zip}' download>Pobierz</a>
+              </td>
+              <td>
+                  <button data-type="preview">Otwórz</button>
+              </td>
+            </tr>
           `;
   });
 
