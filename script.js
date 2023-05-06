@@ -13,14 +13,14 @@ const exams = [
       zip: "./egzaminy/INF03-2021-06-01/zad1.zip",
     },
   },
-  {
-    type: "INF03",
-    date: "2022-01-01",
-    link: {
-      sheet: "./egzaminy/INF03-2022-01-01/inf-03-2022-01-01-SG.pdf",
-      zip: "./egzaminy/INF03-2022-01-01/zad1.zip",
-    },
-  },
+  // {
+  //   type: "INF03",
+  //   date: "2022-01-01",
+  //   link: {
+  //     sheet: "./egzaminy/INF03-2022-01-01/inf-03-2022-01-01-SG.pdf",
+  //     zip: "./egzaminy/INF03-2022-01-01/zad1.zip",
+  //   },
+  // },
   {
     type: "INF03",
     date: "2022-06-01",
