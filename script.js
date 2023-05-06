@@ -401,7 +401,7 @@ const exams = [
     type: "E14",
     date: "2019-01-09",
     link: {
-      sheet: "./egzaminy/E14-2019-01-09/EE-09-2022-06-04-SG.pdf",
+      sheet: "./egzaminy/E14-2019-01-09/E14-2019-01-09.pdf",
       zip: "./egzaminy/E14-2019-01-09/materialy3.zip",
     },
   },
