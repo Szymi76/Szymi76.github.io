@@ -85,9 +85,9 @@ button {
   padding: 4px 8px;
   background-color: var(--white);
   border: none;
-  border-radius: 3px;
+  border-radius: 2px;
   cursor: pointer;
-  transition: all 100ms;
+  transition: all 250ms;
   font-weight: 500;
 }
 
