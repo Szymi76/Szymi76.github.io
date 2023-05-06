@@ -96,6 +96,10 @@ button:hover {
   color: var(--white);
 }
 
+button:active {
+  scale: 0.8;
+}
+
 .active-row {
   background-color: #121f44 !important;
 }
