@@ -1,14 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap");
 
 :root {
-  --black: #000000;
-  --very-dark-gray: #050b1b;
-  --dark-gray: #161e31;
-  --gray: #6b7280;
+  --black: #030712;
+  --dark-gray: #07112b;
+  --gray: #4b5563;
   --white: #f9fafb;
-  --green: #22c55e;
   --blue: #2563eb;
-  --violet: #7c3aed;
 }
 
 * {
@@ -19,7 +16,7 @@
 }
 
 body {
-  background-color: var(--dark-gray);
+  background-color: #070e24;
   color: var(--white);
   display: flex;
   gap: 8px;
@@ -27,22 +24,33 @@ body {
   padding: 100px 0px;
 }
 
-table,
-tr,
+table tr:last-child td {
+  border-bottom: none;
+}
+
+table {
+  border: 1px solid var(--gray);
+  border-spacing: 0;
+  background-color: var(--black);
+}
+
+table tr:first-child {
+  position: sticky;
+  top: 0;
+  background-color: var(--black);
+}
+
 td,
 th {
-  border: 1px solid var(--gray);
-  border-collapse: collapse;
   padding: 12px 16px;
   text-align: center;
+  border-bottom: 1px solid var(--gray);
+  border-right: 1px solid var(--gray);
 }
 
-tr:nth-child(even) {
-  background-color: var(--very-dark-gray);
-}
-
-tr:nth-child(odd) {
-  background-color: var(--black);
+tr td:last-child,
+tr th:last-child {
+  border-right: none;
 }
 
 a {
@@ -77,7 +85,7 @@ input[type="checkbox"]:checked::before {
 
 iframe {
   position: sticky;
-  top: 8px;
+  top: 0;
 }
 
 button {
@@ -101,5 +109,5 @@ button:active {
 }
 
 .active-row {
-  background-color: #121f44 !important;
+  background-color: var(--dark-gray);
 }
